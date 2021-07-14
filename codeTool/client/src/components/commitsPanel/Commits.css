@@ -1,0 +1,53 @@
+
+
+.commit {
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  margin: 0 0.25rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.commit:hover {
+  background-color: darkslateblue;
+}
+
+.commit > div:first-child {
+  width: 50px;
+}
+
+.commitDotContainer {
+  display: flex;
+  flex: 1;
+  margin-right: 0.5rem;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.commitDot {
+  border-radius: 50%;
+  border: 1px solid aliceblue;
+  background-color: #1f88c8;
+}
+.commitDot.merge {
+  background-color: gray;
+  border-color: gray;
+}
+.commitInfo {
+  /* border: 1px solid red; */
+  flex: 4;
+}
+
+.commitInfo p {
+  margin: 0;
+  word-break: break-word;
+}
+.commitInfo p:last-child {
+  color: #777;
+  margin-top: 0.2rem;
+}
